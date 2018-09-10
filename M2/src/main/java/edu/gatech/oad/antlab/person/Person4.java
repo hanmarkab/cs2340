@@ -38,7 +38,8 @@ public class Person4 {
         String str = new String("");
         for (int i = 0; i < input.length() - 1; i++) {
             char character = input.charAt(i);
-            character = character + 1;
+            character = (char) character++;
+
             str = str + character;
         }
         return str;
@@ -57,4 +58,3 @@ public class Person4 {
     }
 
 }
-
