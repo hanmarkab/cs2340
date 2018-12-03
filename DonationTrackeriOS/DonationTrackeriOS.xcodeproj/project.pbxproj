@@ -19,6 +19,8 @@
 		DC60C87221B49398006D71BF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C87121B49398006D71BF /* SignUpViewController.swift */; };
 		DC60C87421B493A9006D71BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC60C87321B493A9006D71BF /* HomeViewController.swift */; };
 		DC60C87821B4AC15006D71BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC60C87721B4AC15006D71BF /* GoogleService-Info.plist */; };
+		DCB54EFA21B5B67E00711EB3 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB54EF921B5B67E00711EB3 /* LocationsViewController.swift */; };
+		DCB54EFE21B5BDAD00711EB3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB54EFD21B5BDAD00711EB3 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		DC60C87121B49398006D71BF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DC60C87321B493A9006D71BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DC60C87721B4AC15006D71BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCB54EF921B5B67E00711EB3 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		DCB54EFD21B5BDAD00711EB3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		E8DA00E35271BE25EE72D19A /* Pods_DonationTrackeriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonationTrackeriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1B9E6451E06C9778679DCA /* Pods-DonationTrackeriOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonationTrackeriOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonationTrackeriOSTests/Pods-DonationTrackeriOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,12 +122,14 @@
 			isa = PBXGroup;
 			children = (
 				DC60C87721B4AC15006D71BF /* GoogleService-Info.plist */,
+				DCB54EFD21B5BDAD00711EB3 /* MapViewController.swift */,
 				DC60C84D21B49278006D71BF /* AppDelegate.swift */,
 				DC60C84F21B49278006D71BF /* StartViewController.swift */,
 				DC60C87121B49398006D71BF /* SignUpViewController.swift */,
 				DC60C87321B493A9006D71BF /* HomeViewController.swift */,
 				DC60C86F21B49369006D71BF /* LoginViewController.swift */,
 				DC60C85121B49278006D71BF /* Main.storyboard */,
+				DCB54EF921B5B67E00711EB3 /* LocationsViewController.swift */,
 				DC60C85421B4927A006D71BF /* Assets.xcassets */,
 				DC60C85621B4927A006D71BF /* LaunchScreen.storyboard */,
 				DC60C85921B4927A006D71BF /* Info.plist */,
@@ -323,6 +329,8 @@
 				DC60C85021B49278006D71BF /* StartViewController.swift in Sources */,
 				DC60C87221B49398006D71BF /* SignUpViewController.swift in Sources */,
 				DC60C84E21B49278006D71BF /* AppDelegate.swift in Sources */,
+				DCB54EFA21B5B67E00711EB3 /* LocationsViewController.swift in Sources */,
+				DCB54EFE21B5BDAD00711EB3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
