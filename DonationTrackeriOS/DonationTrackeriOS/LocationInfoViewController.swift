@@ -29,6 +29,7 @@ class LocationInfoViewController: UIViewController {
         locationCity?.text = arr[8]
         locationZip?.text = arr[2]
         locationNumber?.text = arr[3]
+    
 
         // Do any additional setup after loading the view.
     }
